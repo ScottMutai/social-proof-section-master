@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+body{
+    background-color: hsl(300, 24%, 96%);
+    padding: 40px 30px;
+    margin: 0;
+    font-family:"('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap')";
+}
+
+.intro-text {
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+}
+.intro-text h1 {
+    font-size: 50px;
+}
+.intro-text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.rating {
+  background-color:hsla(300, 43%, 22%,0.2) ;
+  text-align: center;
+  border-radius: 17px;
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+.review{
+    color: white;
+    background-color: hsl(300, 43%, 22%);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.review-head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.review-head img{
+    width: 40px;
+    border-radius: 50%;
+}
+.review-text{
+    line-height: 30px;
+}
+.review-head h2 span:last-child{
+    color: hsl(333, 80%, 67%);
+}
+
+@media (min-width:100px) {
+    body{
+        padding:100px;
+    }
+    .intro{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    .intro-text{
+        flex:1;
+        text-align: left;
+    }
+    .ratings{
+        flex:1;
+    }
+    .rating{
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
+    #rating-2{
+        margin-left: 10%;
+    }
+    #rating-3{
+        margin-left: 20%;
+    }
+    .rating p{
+        margin-left: 22px;
+    }
+    .reviews{
+        display: flex;
+        gap: 30px;
+        align-items: start;
+    }
+    #review-2{
+        margin-top: 15px;
+    }
+    #review-3{
+        margin-top: 25px;
+    }
+}
+
+
+
+
+
+    
+    /*block component*/
+    
+    
+/*responsive*(media queries)*/
+/*git and github*/
